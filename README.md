@@ -29,6 +29,13 @@ O arquivo JSON possui a seguinte estrutura:
   ...
 ]
 ```
+Cada item do arquivo JSON representa uma pergunta e sua respectiva resposta e algumas informações adicionais.
+
+O campo "question" contém a pergunta em formato de texto, o campo "answer" contém a resposta correspondente, o campo “category” inclui uma descrição mais genérica osbre o assunto da pergunta, o campo “url” contém a fonte das informações e o campo “date” contém a data na qual o conteúdo foi acessado.
+
+Todo o conteúdo das perguntas presentes neste arquivo é de domínio público, ou seja, são informações amplamente disponíveis e livres de direitos autorais.
+
+Você pode adicionar novas perguntas e respostas seguindo a mesma estrutura. Certifique-se de manter o formato JSON válido, onde cada item está separado por vírgula e o arquivo é uma lista de objetos JSON.
 
 ## Contribuição
 
